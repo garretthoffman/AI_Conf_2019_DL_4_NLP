@@ -1,0 +1,5 @@
+numpy
+pandas
+sklearn
+matplotlib
+keras==2.0.8
