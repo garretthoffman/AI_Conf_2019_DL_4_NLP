@@ -1,6 +1,6 @@
 
 # Set the base image to Ubuntu
-FROM tensorflow/tensorflow:latest-gpu-py3
+FROM tensorflow/tensorflow:1.13.1-gpu-py3
 
 # File Author / Maintainer
 MAINTAINER Garrett Hoffman
