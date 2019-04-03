@@ -27,7 +27,7 @@ Download the pre-trained Twitter GloVe word vectors from [here](https://nlp.stan
 	
 #### Option 1: Dockerfiles (Recommended)
 
-3. After cloning the repo to your machine, enter
+3. After cloning the repo to your machine, navigate into the repo and enter
 
     ```
     docker build -t ai_conf_nlp_<image_type> -f ./dockerfiles/Dockerfile.<image_type> ./dockerfiles/
