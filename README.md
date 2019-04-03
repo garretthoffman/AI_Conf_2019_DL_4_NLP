@@ -3,6 +3,8 @@ Slides and Code Tutorials for AIConf NY Tutorial on Deep Learning Methodologies 
 
 ## Notes
 
+You can access the ULMFiT Notebook on [Google Colab](https://colab.research.google.com/drive/1Q5lUfTt3WIj4K9VNiMyEFk82gGerZk05)
+
 For a code sample of RNNs with Attention check out [Taming Recurrent Neural Networks for Better Summarization](http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html) with links to the accompanying tensorflow implementation.
 
 ## Setup
@@ -89,4 +91,4 @@ If you don't have or don't want to use Docker, you can follow these steps to set
 	
 	to finally start up the notebook. A browser should open automatically. If not, navigate to [http://127.0.0.1:8888](http://127.0.0.1:8888) in your browser. 
 	
-8. Choose `0X_Notebook_Title.ipynb` to open the applicable Notebook. to open the Notebook.
+8. Choose `0X_Notebook_Title.ipynb` to open the applicable Notebook. to open the Notebook. Note: The ULMFiT Notebook will not run in the container, this must be run on Google Colab
