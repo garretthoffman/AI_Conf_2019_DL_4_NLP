@@ -51,7 +51,7 @@ Download the pre-trained Twitter GloVe word vectors from [here](https://nlp.stan
 
     and navigate to the specified URL `http://0.0.0.0:8888/?token=<JUPYTER NOTEBOOK ACCESS TOKEN>` in your browser.
     
-6. Choose `0X_Notebook_Title.ipynb` to open the applicable Notebook.
+6. Choose `0X_Notebook_Title.ipynb` to open the applicable Notebook. Note: The ULMFiT Notebook must be run on Google Colab, see link above.
 	
 ###### Debugging docker
 If you receive an error of the form:
@@ -91,4 +91,4 @@ If you don't have or don't want to use Docker, you can follow these steps to set
 	
 	to finally start up the notebook. A browser should open automatically. If not, navigate to [http://127.0.0.1:8888](http://127.0.0.1:8888) in your browser. 
 	
-8. Choose `0X_Notebook_Title.ipynb` to open the applicable Notebook. to open the Notebook. Note: The ULMFiT Notebook will not run in the container, this must be run on Google Colab
+8. Choose `0X_Notebook_Title.ipynb` to open the applicable Notebook. Note: The ULMFiT Notebook must be run on Google Colab, see link above.
