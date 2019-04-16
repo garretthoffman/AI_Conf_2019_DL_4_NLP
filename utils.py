@@ -42,6 +42,20 @@ def preprocess_ST_message(text):
 
     return words
 
+def create_lookup_tables_w2v(words):
+    """
+    Create lookup tables for vocabulary
+    :param words: Input list of words
+    :return: A tuple of dicts.  The first dict maps a vocab word to and integeter
+             The second maps an integer back to to the vocab word
+    """
+    word_counts = Counter(words)
+    sorted_vocab = sorted(word_counts, key=word_counts.get, reverse=True)
+    int_to_vocab = {ii: word for ii, word in enumerate(sorted_vocab)}
+    vocab_to_int = {word: ii for ii, word in int_to_vocab.items()}
+
+    return vocab_to_int, int_to_vocab
+
 def create_lookup_tables(words):
     """
     Create lookup tables for vocabulary
